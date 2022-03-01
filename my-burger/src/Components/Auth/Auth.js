@@ -84,12 +84,11 @@ class Auth extends Component {
              >
                   {({values, handleChange, handleSubmit, errors}) => (
                         <div style={{
-                               width: "60%",
+                               width: "100%",
                                textAlign: "left",
                                border: "1px solid  grey",
                                padding: "15px",
-                               borderRadius: "7px",
-                               marginLeft: "200px"
+                               borderRadius: "7px"
                              }}
                         >
                             <button style={{
