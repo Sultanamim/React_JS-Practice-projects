@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+.hooks{
+  text-align: center;
+  justify-content: center;
+  margin: 40px 30px;
+  padding: 25px;
+  background: #eeeded;
+  box-shadow: 1px 5px 17px -7px rgba(0,0,0,0.6);
+}
+.warning{
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.textarea textarea{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+}
+.btn button{
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #b1aaaa;
+  color: black;
+  border: 1px solid #616060;
+}
+.effectHook{
+  background: #fabebe;
+  padding: 20px;
+  margin: 10px;
+}
+input{
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
