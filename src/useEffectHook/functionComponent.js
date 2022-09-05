@@ -31,6 +31,7 @@ export default function FunctionComponent() {
   return (
     <div className='effectHook'>
            <p>Time: {date.toLocaleTimeString()}</p>
+           <p>{text}</p>
            <input type='text' onChange={(e) => setText(e.target.value)} />
         <div className='btn'>
           <button type='button' onClick={addClick}>

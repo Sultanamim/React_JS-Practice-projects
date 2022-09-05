@@ -5,8 +5,8 @@ export default function Form() {
     const inputRef = useRef(null);
 
     useEffect(() => {
-        inputRef.current.focus();
-    })
+        //inputRef.current.focus();
+    },[])
   return (
     <div className='hooks'>
         <h1>{'useRef() Hook'}</h1>

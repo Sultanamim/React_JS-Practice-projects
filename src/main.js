@@ -3,6 +3,7 @@ import UseStateHook from './useStateHook/functionComponent';
 import UseEffectHook from './useEffectHook/functionComponent';
 import Usecallback from './useCallback & useMemo hook/Main';
 import UseRef from './useRefHook/Form';
+import UseReducer from './useReducerHook/Main';
 
 export default function Main() {
     const [show, setShow] = useState(true);
@@ -22,6 +23,7 @@ export default function Main() {
       </div>
       <Usecallback />
       <UseRef />
+      <UseReducer />
     </div>
   )
 }
