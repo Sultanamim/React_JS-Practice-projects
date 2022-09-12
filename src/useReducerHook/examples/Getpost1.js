@@ -27,8 +27,8 @@ export default function Getpost1() {
       <h2 style={{color: '#807D7D' }}>{'useReducer with useEffect(GET Post 1)'}</h2>
       {loading ? 'Loading...' : 
       <div style={{textAlign: 'left'}}>
-          <p><h5>Post Title: </h5> {post.title}</p>
-          <p><h5>Post Body: </h5> {post.body}</p>
+          <h5>Post Title: </h5> <p>{post.title}</p>
+         <h5>Post Body: </h5>  <p>{post.body}</p>
         </div>}
       {error || null}
     </div>
